@@ -1,0 +1,15 @@
+package com.epam.task_1;
+
+public class Chocolate extends Sweet{
+	
+	Chocolate(String name, int weight, int cost){
+		
+		super(name, weight, cost);
+	}
+	
+	@Override
+	String getType() {
+		
+		return "chocolate";
+	}
+}

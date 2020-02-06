@@ -1,0 +1,10 @@
+package com.epam.task_1;
+
+public class Candy extends Sweet{
+	
+	Candy(String name, int weight, int cost){
+		
+		super(name, weight, cost);
+	}
+
+}
